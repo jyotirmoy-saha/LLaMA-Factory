@@ -1,3 +1,5 @@
+RUN ln -s /com.docker.devenvironments.code /user/llama/
+
 FROM nvcr.io/nvidia/pytorch:24.01-py3
 
 WORKDIR /app
